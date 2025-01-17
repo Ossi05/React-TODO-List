@@ -1,0 +1,28 @@
+.TodoList {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    .TodoList {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .TodoList {
+        max-width: 70%;
+        padding: 16px;
+    }
+}
+
+@media (min-width: 961px) {
+    .TodoList {
+        max-width: 40%;
+    }
+}
