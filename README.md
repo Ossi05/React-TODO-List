@@ -1,1 +1,1 @@
-# TODO lista
+# Yksinkertainen React Tehtävälista
